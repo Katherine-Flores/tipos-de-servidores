@@ -3,6 +3,7 @@
 @section('content')
     <form method="POST" action="{{ route('login') }}" class="needs-validation w-50 row g-2" novalidate>
         @csrf
+        <h3 class="mb-3">Iniciar Sesión</h3>
         <div class="mb-3 col-md-6">
             <label for="email" class="form-label">Correo electrónico</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>

@@ -273,6 +273,18 @@ footer{
 }
 
 @media (max-width: 992px) {
+    .header-title {
+        font-size: 0.9rem;
+    }
+
+    .header-title.logo {
+        font-size: 0;
+    }
+
+    .header-title.logo i {
+        font-size: 1.5rem; /* Asegura que el icono mantenga su tamaño */
+    }
+
     .imagen-ocultar {
         display: none;
     }

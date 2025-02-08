@@ -22,6 +22,25 @@
                     </div>
                 @endforeach
             </div>
+            <h3 class="mt-5">Videos Recomendados</h3>
+            <div class="container w-50">
+                <div class="detalle-video">
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/GxqXaRpIpWY"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-container mt-4">
+                        <iframe
+                            src="https://www.youtube.com/embed/xV0mcCzDuew"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @else

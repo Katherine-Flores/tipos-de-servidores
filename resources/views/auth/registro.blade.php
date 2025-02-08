@@ -3,7 +3,7 @@
 @section('content')
     <form method="POST" action="{{ route('registro') }}" class="needs-validation w-50 row g-2" novalidate>
         @csrf
-        <h1 class="text-center mb-3">Formulario de Registro</h1>
+        <h3 class="mb-3">Registrarse</h3>
         <div class="mb-3 col-md-12">
             <label for="name" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>

@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-        <a href="{{ route('home') }}" class="header-title">
-            <i class="fa-solid fa-server"></i>Servers
+        <a href="{{ route('home') }}" class="header-title logo">
+            <i class="fa-solid fa-server me-1"></i>Servers
         </a>
 
         @auth
